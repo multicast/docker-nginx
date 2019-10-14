@@ -1,0 +1,26 @@
+# =IMAGE=
+
+![Pulls](https://img.shields.io/docker/pulls/=NAMESPACE=/=IMAGE=.svg)
+![Stars](https://img.shields.io/docker/stars/=NAMESPACE=/=IMAGE=.svg)
+
+The [NGINX](https://packages.debian.org/buster/nginx) package from [Debian](https://debian.org/)
+[Buster](https://wiki.debian.org/DebianBuster) using
+[systemd](https://hub.docker.com/r/=NAMESPACE=/systemd-buster/)-enabled
+base image
+
+This image is built daily and in case of any security update, the list of
+packages is updated, commited and this triggers update of docker-hub image
+and all dependant images.
+
+## Quick Usage
+
+Run prebuilt and explore:
+
+    $ docker run --rm -ti =NAMESPACE=/=IMAGE= bash
+
+Typically you want to provide bind config files and mount them:
+
+    $ docker run --rm -d -v /volumes/=IMAGE=:/etc/=IMAGE=:Z =NAMESPACE=/=IMAGE=
+
+# Packages
+

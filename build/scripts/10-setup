@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+set -e
+set -u
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+## packages sorted alphabeticaly
+##
+packages=""
+packages="${packages} libnginx-mod-http-auth-pam"
+packages="${packages} libnginx-mod-http-echo"
+packages="${packages} libnginx-mod-http-fancyindex"
+packages="${packages} libnginx-mod-http-headers-more-filter"
+packages="${packages} libnginx-mod-http-upstream-fair"
+packages="${packages} nginx-common"
+packages="${packages} nginx-light"
+
+## install packages
+##
+apt-get install -y --no-install-recommends --auto-remove --purge ${packages}
