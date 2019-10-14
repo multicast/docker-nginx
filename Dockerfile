@@ -13,5 +13,3 @@ RUN run-parts --report --exit-on-error /root/build/scripts && \
   rm -rfv /root/build
 
 ENTRYPOINT ["/sbin/entrypoint.sh"]
-
-CMD ["/usr/bin/runsvdir", "-P", "/etc/runit/runsvdir/default"]
