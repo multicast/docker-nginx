@@ -13,3 +13,5 @@ RUN run-parts --report --exit-on-error /root/build/scripts && \
   rm -rfv /root/build
 
 ENTRYPOINT ["/sbin/entrypoint.sh"]
+
+CMD ["/sbin/init"]
