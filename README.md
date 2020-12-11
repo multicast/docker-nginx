@@ -54,6 +54,8 @@ Typically you want to provide bind config files and mount them:
     ii  etckeeper                             1.18.10-1                   all          store /etc in git, mercurial, bzr or darcs
     ii  fdisk                                 2.33.1-0.1                  amd64        collection of partitioning utilities
     ii  findutils                             4.6.0+git+20190209-2        amd64        utilities for finding files--find, xargs
+    ii  fontconfig-config                     2.13.1-2                    all          generic font configuration library - configuration
+    ii  fonts-dejavu-core                     2.37-1                      all          Vera font family derivate with additional characters
     ii  gcc-8-base:amd64                      8.3.0-6                     amd64        GCC, the GNU Compiler Collection (base package)
     ii  git                                   1:2.20.1-2+deb10u3          amd64        fast, scalable, distributed revision control system
     ii  git-man                               1:2.20.1-2+deb10u3          all          fast, scalable, distributed revision control system (manual pages)
@@ -73,6 +75,7 @@ Typically you want to provide bind config files and mount them:
     ii  libaudit-common                       1:2.8.4-3                   all          Dynamic library for security auditing - common files
     ii  libaudit1:amd64                       1:2.8.4-3                   amd64        Dynamic library for security auditing
     ii  libblkid1:amd64                       2.33.1-0.1                  amd64        block device ID library
+    ii  libbsd0:amd64                         0.9.1-2                     amd64        utility functions from BSD systems - shared library
     ii  libbz2-1.0:amd64                      1.0.6-9.2~deb10u1           amd64        high-quality block-sorting file compressor library - runtime
     ii  libc-bin                              2.28-10                     amd64        GNU C Library: Binaries
     ii  libc-l10n                             2.28-10                     all          GNU C Library: localization files
@@ -91,22 +94,32 @@ Typically you want to provide bind config files and mount them:
     ii  libext2fs2:amd64                      1.44.5-1+deb10u3            amd64        ext2/ext3/ext4 file system libraries
     ii  libfdisk1:amd64                       2.33.1-0.1                  amd64        fdisk partitioning library
     ii  libffi6:amd64                         3.2.1-9                     amd64        Foreign Function Interface library runtime
+    ii  libfontconfig1:amd64                  2.13.1-2                    amd64        generic font configuration library - runtime
+    ii  libfreetype6:amd64                    2.9.1-3+deb10u2             amd64        FreeType 2 font engine, shared library files
     ii  libgcc1:amd64                         1:8.3.0-6                   amd64        GCC support library
     ii  libgcrypt20:amd64                     1.8.4-5                     amd64        LGPL Crypto library - runtime library
+    ii  libgd3:amd64                          2.2.5-5.2                   amd64        GD Graphics Library
     ii  libgdbm-compat4:amd64                 1.18.1-4                    amd64        GNU dbm database routines (legacy support runtime version) 
     ii  libgdbm6:amd64                        1.18.1-4                    amd64        GNU dbm database routines (runtime version) 
+    ii  libgeoip1:amd64                       1.6.12-1                    amd64        non-DNS IP-to-country resolver library
     ii  libgmp10:amd64                        2:6.1.2+dfsg-4              amd64        Multiprecision arithmetic library
     ii  libgnutls30:amd64                     3.6.7-4+deb10u5             amd64        GNU TLS library - main runtime library
     ii  libgpg-error0:amd64                   1.35-1                      amd64        GnuPG development runtime library
     ii  libgssapi-krb5-2:amd64                1.17-3+deb10u1              amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+    ii  libhiredis0.14:amd64                  0.14.0-3                    amd64        minimalistic C client library for Redis
     ii  libhogweed4:amd64                     3.4.1-1                     amd64        low level cryptographic library (public-key cryptos)
+    ii  libicu63:amd64                        63.1-6+deb10u1              amd64        International Components for Unicode
     ii  libidn2-0:amd64                       2.0.5-1+deb10u1             amd64        Internationalized domain names (IDNA2008/TR46) library
+    ii  libjbig0:amd64                        2.1-3.1+b2                  amd64        JBIGkit libraries
+    ii  libjpeg62-turbo:amd64                 1:1.5.2-2+deb10u1           amd64        libjpeg-turbo JPEG runtime library
     ii  libk5crypto3:amd64                    1.17-3+deb10u1              amd64        MIT Kerberos runtime libraries - Crypto Library
     ii  libkeyutils1:amd64                    1.6-6                       amd64        Linux Key Management Utilities (library)
     ii  libkrb5-3:amd64                       1.17-3+deb10u1              amd64        MIT Kerberos runtime libraries
     ii  libkrb5support0:amd64                 1.17-3+deb10u1              amd64        MIT Kerberos runtime libraries - Support library
     ii  libldap-2.4-2:amd64                   2.4.47+dfsg-3+deb10u4       amd64        OpenLDAP libraries
     ii  libldap-common                        2.4.47+dfsg-3+deb10u4       all          OpenLDAP common files for libraries
+    ii  libluajit-5.1-2:amd64                 2.1.0~beta3+dfsg-5.1        amd64        Just in time compiler for Lua - library version
+    ii  libluajit-5.1-common                  2.1.0~beta3+dfsg-5.1        all          Just in time compiler for Lua - common files
     ii  liblz4-1:amd64                        1.8.3-1                     amd64        Fast LZ compression algorithm library - runtime
     ii  liblzma5:amd64                        5.2.4-1                     amd64        XZ-format compression library
     ii  libmnl0:amd64                         1.0.4-2                     amd64        minimalistic Netlink communication library
@@ -117,10 +130,22 @@ Typically you want to provide bind config files and mount them:
     ii  libnewt0.52:amd64                     0.52.20-8                   amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
     ii  libnghttp2-14:amd64                   1.36.0-2+deb10u1            amd64        library implementing HTTP/2 protocol (shared library)
     ii  libnginx-mod-http-auth-pam            1.14.2-2+deb10u3            amd64        PAM authentication module for Nginx
+    ii  libnginx-mod-http-cache-purge         1.14.2-2+deb10u3            amd64        Purge content from Nginx caches
+    ii  libnginx-mod-http-dav-ext             1.14.2-2+deb10u3            amd64        WebDAV missing commands support for Nginx
     ii  libnginx-mod-http-echo                1.14.2-2+deb10u3            amd64        Bring echo and more shell style goodies to Nginx
     ii  libnginx-mod-http-fancyindex          1.14.2-2+deb10u3            amd64        Fancy indexes module for the Nginx
+    ii  libnginx-mod-http-geoip               1.14.2-2+deb10u3            amd64        GeoIP HTTP module for Nginx
     ii  libnginx-mod-http-headers-more-filter 1.14.2-2+deb10u3            amd64        Set and clear input and output headers for Nginx
+    ii  libnginx-mod-http-image-filter        1.14.2-2+deb10u3            amd64        HTTP image filter module for Nginx
+    ii  libnginx-mod-http-lua                 1.14.2-2+deb10u3            amd64        Lua module for Nginx
+    ii  libnginx-mod-http-ndk                 1.14.2-2+deb10u3            amd64        Nginx Development Kit module
+    ii  libnginx-mod-http-perl                1.14.2-2+deb10u3            amd64        Perl module for Nginx
+    ii  libnginx-mod-http-subs-filter         1.14.2-2+deb10u3            amd64        Substitution filter module for Nginx
+    ii  libnginx-mod-http-uploadprogress      1.14.2-2+deb10u3            amd64        Upload progress system for Nginx
     ii  libnginx-mod-http-upstream-fair       1.14.2-2+deb10u3            amd64        Nginx Upstream Fair Proxy Load Balancer
+    ii  libnginx-mod-http-xslt-filter         1.14.2-2+deb10u3            amd64        XSLT Transformation module for Nginx
+    ii  libnginx-mod-mail                     1.14.2-2+deb10u3            amd64        Mail module for Nginx
+    ii  libnginx-mod-nchan                    1.14.2-2+deb10u3            amd64        Fast, flexible pub/sub server for Nginx
     ii  libnginx-mod-stream                   1.14.2-2+deb10u3            amd64        Stream module for Nginx
     ii  libp11-kit0:amd64                     0.23.15-2                   amd64        library for loading and coordinating access to PKCS#11 modules - runtime
     ii  libpam-modules:amd64                  1.3.1-5                     amd64        Pluggable Authentication Modules for PAM
@@ -130,6 +155,7 @@ Typically you want to provide bind config files and mount them:
     ii  libpcre2-8-0:amd64                    10.32-5                     amd64        New Perl Compatible Regular Expression Library- 8 bit runtime files
     ii  libpcre3:amd64                        2:8.39-12                   amd64        Old Perl 5 Compatible Regular Expression Library - runtime files
     ii  libperl5.28:amd64                     5.28.1-6+deb10u1            amd64        shared Perl library
+    ii  libpng16-16:amd64                     1.6.36-6                    amd64        PNG library - runtime (version 1.6)
     ii  libpopt0:amd64                        1.16-12                     amd64        lib for parsing cmdline parameters
     ii  libprocps7:amd64                      2:3.3.15-2                  amd64        library for accessing process information from /proc
     ii  libpsl5:amd64                         0.20.2-2                    amd64        Library for Public Suffix List (shared libraries)
@@ -155,10 +181,20 @@ Typically you want to provide bind config files and mount them:
     ii  libstdc++6:amd64                      8.3.0-6                     amd64        GNU Standard C++ Library v3
     ii  libsystemd0:amd64                     241-7~deb10u5               amd64        systemd utility library
     ii  libtasn1-6:amd64                      4.13-3                      amd64        Manage ASN.1 structures (runtime)
+    ii  libtiff5:amd64                        4.1.0+git191117-2~deb10u1   amd64        Tag Image File Format (TIFF) library
     ii  libtinfo6:amd64                       6.1+20181013-2+deb10u2      amd64        shared low-level terminfo library for terminal handling
     ii  libudev1:amd64                        241-7~deb10u5               amd64        libudev shared library
     ii  libunistring2:amd64                   0.9.10-1                    amd64        Unicode string library for C
     ii  libuuid1:amd64                        2.33.1-0.1                  amd64        Universally Unique ID library
+    ii  libwebp6:amd64                        0.6.1-2                     amd64        Lossy compression of digital photographic images.
+    ii  libx11-6:amd64                        2:1.6.7-1+deb10u1           amd64        X11 client-side library
+    ii  libx11-data                           2:1.6.7-1+deb10u1           all          X11 client-side library
+    ii  libxau6:amd64                         1:1.0.8-1+b2                amd64        X11 authorisation library
+    ii  libxcb1:amd64                         1.13.1-2                    amd64        X C Binding
+    ii  libxdmcp6:amd64                       1:1.1.2-3                   amd64        X11 Display Manager Control Protocol library
+    ii  libxml2:amd64                         2.9.4+dfsg1-7+deb10u1       amd64        GNOME XML library
+    ii  libxpm4:amd64                         1:3.5.12-1                  amd64        X11 pixmap library
+    ii  libxslt1.1:amd64                      1.1.32-2.2~deb10u1          amd64        XSLT 1.0 processing library - runtime library
     ii  libxtables12:amd64                    1.8.2-4                     amd64        netfilter xtables library
     ii  libzstd1:amd64                        1.3.8+dfsg-3                amd64        fast lossless compression algorithm
     ii  localepurge                           0.7.3.5                     all          reclaim disk space by removing unneeded localizations
@@ -172,7 +208,7 @@ Typically you want to provide bind config files and mount them:
     ii  ncurses-bin                           6.1+20181013-2+deb10u2      amd64        terminal-related programs and man pages
     ii  net-tools                             1.60+git20180626.aebd88e-1  amd64        NET-3 networking toolkit
     ii  nginx-common                          1.14.2-2+deb10u3            all          small, powerful, scalable web/proxy server - common files
-    ii  nginx-light                           1.14.2-2+deb10u3            amd64        nginx web/proxy server (basic version)
+    ii  nginx-extras                          1.14.2-2+deb10u3            amd64        nginx web/proxy server (extended version)
     ii  openssl                               1.1.1d-0+deb10u4            amd64        Secure Sockets Layer toolkit - cryptographic utility
     ii  passwd                                1:4.5-1.1                   amd64        change and administer password and group data
     ii  perl                                  5.28.1-6+deb10u1            amd64        Larry Wall's Practical Extraction and Report Language
