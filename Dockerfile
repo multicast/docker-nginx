@@ -1,7 +1,7 @@
 #
 # Dockerfile
 #
-FROM mkovac/systemd-buster:latest
+FROM mkovac/runit-buster:latest
 LABEL MAINTAINER="matej.kovac@gmail.com"
 
 # files and scripts needed to build the image
@@ -14,4 +14,4 @@ RUN run-parts --report --exit-on-error /root/build/scripts && \
 
 ENTRYPOINT ["/sbin/entrypoint.sh"]
 
-CMD ["/sbin/init"]
+CMD ["/usr/bin/runsvdir", "-P", "/etc/runit/runsvdir/default"]

@@ -3,10 +3,12 @@
 ![Pulls](https://img.shields.io/docker/pulls/=NAMESPACE=/=IMAGE=.svg)
 ![Stars](https://img.shields.io/docker/stars/=NAMESPACE=/=IMAGE=.svg)
 
-The [NGINX](https://packages.debian.org/buster/nginx) package from [Debian](https://debian.org/)
-[Buster](https://wiki.debian.org/DebianBuster) using
-[systemd](https://hub.docker.com/r/=NAMESPACE=/systemd-buster/)-enabled
-base image
+The [NGINX](https://packages.debian.org/buster/nginx) on the [Debian](https://debian.org/) [Buster](https://wiki.debian.org/DebianBuster)
+[container image](https://hub.docker.com/r/=NAMESPACE=/=IMAGE=/).
+
+This image is built daily and in case of any security update, the list of
+packages is updated, commited and this triggers update of docker-hub image
+and all dependant images.
 
 This image is built daily and in case of any security update, the list of
 packages is updated, commited and this triggers update of docker-hub image
