@@ -147,7 +147,7 @@ Typically you want to provide bind config files and mount them:
     ii  libnginx-mod-mail                     1.14.2-2+deb10u3            amd64        Mail module for Nginx
     ii  libnginx-mod-nchan                    1.14.2-2+deb10u3            amd64        Fast, flexible pub/sub server for Nginx
     ii  libnginx-mod-stream                   1.14.2-2+deb10u3            amd64        Stream module for Nginx
-    ii  libp11-kit0:amd64                     0.23.15-2                   amd64        library for loading and coordinating access to PKCS#11 modules - runtime
+    ii  libp11-kit0:amd64                     0.23.15-2+deb10u1           amd64        library for loading and coordinating access to PKCS#11 modules - runtime
     ii  libpam-modules:amd64                  1.3.1-5                     amd64        Pluggable Authentication Modules for PAM
     ii  libpam-modules-bin                    1.3.1-5                     amd64        Pluggable Authentication Modules for PAM - helper binaries
     ii  libpam-runtime                        1.3.1-5                     all          Runtime support for the PAM library
