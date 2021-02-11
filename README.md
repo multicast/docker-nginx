@@ -196,7 +196,7 @@ Typically you want to provide bind config files and mount them:
     ii  libxpm4:amd64                         1:3.5.12-1                  amd64        X11 pixmap library
     ii  libxslt1.1:amd64                      1.1.32-2.2~deb10u1          amd64        XSLT 1.0 processing library - runtime library
     ii  libxtables12:amd64                    1.8.2-4                     amd64        netfilter xtables library
-    ii  libzstd1:amd64                        1.3.8+dfsg-3                amd64        fast lossless compression algorithm
+    ii  libzstd1:amd64                        1.3.8+dfsg-3+deb10u1        amd64        fast lossless compression algorithm
     ii  localepurge                           0.7.3.5                     all          reclaim disk space by removing unneeded localizations
     ii  locales                               2.28-10                     all          GNU C Library: National Language (locale) data [support]
     ii  login                                 1:4.5-1.1                   amd64        system login tools
