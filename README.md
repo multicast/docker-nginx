@@ -129,24 +129,24 @@ Typically you want to provide bind config files and mount them:
     ii  libnettle6:amd64                      3.4.1-1                     amd64        low level cryptographic library (symmetric and one-way cryptos)
     ii  libnewt0.52:amd64                     0.52.20-8                   amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
     ii  libnghttp2-14:amd64                   1.36.0-2+deb10u1            amd64        library implementing HTTP/2 protocol (shared library)
-    ii  libnginx-mod-http-auth-pam            1.14.2-2+deb10u3            amd64        PAM authentication module for Nginx
-    ii  libnginx-mod-http-cache-purge         1.14.2-2+deb10u3            amd64        Purge content from Nginx caches
-    ii  libnginx-mod-http-dav-ext             1.14.2-2+deb10u3            amd64        WebDAV missing commands support for Nginx
-    ii  libnginx-mod-http-echo                1.14.2-2+deb10u3            amd64        Bring echo and more shell style goodies to Nginx
-    ii  libnginx-mod-http-fancyindex          1.14.2-2+deb10u3            amd64        Fancy indexes module for the Nginx
-    ii  libnginx-mod-http-geoip               1.14.2-2+deb10u3            amd64        GeoIP HTTP module for Nginx
-    ii  libnginx-mod-http-headers-more-filter 1.14.2-2+deb10u3            amd64        Set and clear input and output headers for Nginx
-    ii  libnginx-mod-http-image-filter        1.14.2-2+deb10u3            amd64        HTTP image filter module for Nginx
-    ii  libnginx-mod-http-lua                 1.14.2-2+deb10u3            amd64        Lua module for Nginx
-    ii  libnginx-mod-http-ndk                 1.14.2-2+deb10u3            amd64        Nginx Development Kit module
-    ii  libnginx-mod-http-perl                1.14.2-2+deb10u3            amd64        Perl module for Nginx
-    ii  libnginx-mod-http-subs-filter         1.14.2-2+deb10u3            amd64        Substitution filter module for Nginx
-    ii  libnginx-mod-http-uploadprogress      1.14.2-2+deb10u3            amd64        Upload progress system for Nginx
-    ii  libnginx-mod-http-upstream-fair       1.14.2-2+deb10u3            amd64        Nginx Upstream Fair Proxy Load Balancer
-    ii  libnginx-mod-http-xslt-filter         1.14.2-2+deb10u3            amd64        XSLT Transformation module for Nginx
-    ii  libnginx-mod-mail                     1.14.2-2+deb10u3            amd64        Mail module for Nginx
-    ii  libnginx-mod-nchan                    1.14.2-2+deb10u3            amd64        Fast, flexible pub/sub server for Nginx
-    ii  libnginx-mod-stream                   1.14.2-2+deb10u3            amd64        Stream module for Nginx
+    ii  libnginx-mod-http-auth-pam            1.14.2-2+deb10u4            amd64        PAM authentication module for Nginx
+    ii  libnginx-mod-http-cache-purge         1.14.2-2+deb10u4            amd64        Purge content from Nginx caches
+    ii  libnginx-mod-http-dav-ext             1.14.2-2+deb10u4            amd64        WebDAV missing commands support for Nginx
+    ii  libnginx-mod-http-echo                1.14.2-2+deb10u4            amd64        Bring echo and more shell style goodies to Nginx
+    ii  libnginx-mod-http-fancyindex          1.14.2-2+deb10u4            amd64        Fancy indexes module for the Nginx
+    ii  libnginx-mod-http-geoip               1.14.2-2+deb10u4            amd64        GeoIP HTTP module for Nginx
+    ii  libnginx-mod-http-headers-more-filter 1.14.2-2+deb10u4            amd64        Set and clear input and output headers for Nginx
+    ii  libnginx-mod-http-image-filter        1.14.2-2+deb10u4            amd64        HTTP image filter module for Nginx
+    ii  libnginx-mod-http-lua                 1.14.2-2+deb10u4            amd64        Lua module for Nginx
+    ii  libnginx-mod-http-ndk                 1.14.2-2+deb10u4            amd64        Nginx Development Kit module
+    ii  libnginx-mod-http-perl                1.14.2-2+deb10u4            amd64        Perl module for Nginx
+    ii  libnginx-mod-http-subs-filter         1.14.2-2+deb10u4            amd64        Substitution filter module for Nginx
+    ii  libnginx-mod-http-uploadprogress      1.14.2-2+deb10u4            amd64        Upload progress system for Nginx
+    ii  libnginx-mod-http-upstream-fair       1.14.2-2+deb10u4            amd64        Nginx Upstream Fair Proxy Load Balancer
+    ii  libnginx-mod-http-xslt-filter         1.14.2-2+deb10u4            amd64        XSLT Transformation module for Nginx
+    ii  libnginx-mod-mail                     1.14.2-2+deb10u4            amd64        Mail module for Nginx
+    ii  libnginx-mod-nchan                    1.14.2-2+deb10u4            amd64        Fast, flexible pub/sub server for Nginx
+    ii  libnginx-mod-stream                   1.14.2-2+deb10u4            amd64        Stream module for Nginx
     ii  libp11-kit0:amd64                     0.23.15-2+deb10u1           amd64        library for loading and coordinating access to PKCS#11 modules - runtime
     ii  libpam-modules:amd64                  1.3.1-5                     amd64        Pluggable Authentication Modules for PAM
     ii  libpam-modules-bin                    1.3.1-5                     amd64        Pluggable Authentication Modules for PAM - helper binaries
@@ -207,8 +207,8 @@ Typically you want to provide bind config files and mount them:
     ii  ncurses-base                          6.1+20181013-2+deb10u2      all          basic terminal type definitions
     ii  ncurses-bin                           6.1+20181013-2+deb10u2      amd64        terminal-related programs and man pages
     ii  net-tools                             1.60+git20180626.aebd88e-1  amd64        NET-3 networking toolkit
-    ii  nginx-common                          1.14.2-2+deb10u3            all          small, powerful, scalable web/proxy server - common files
-    ii  nginx-extras                          1.14.2-2+deb10u3            amd64        nginx web/proxy server (extended version)
+    ii  nginx-common                          1.14.2-2+deb10u4            all          small, powerful, scalable web/proxy server - common files
+    ii  nginx-extras                          1.14.2-2+deb10u4            amd64        nginx web/proxy server (extended version)
     ii  openssl                               1.1.1d-0+deb10u6            amd64        Secure Sockets Layer toolkit - cryptographic utility
     ii  passwd                                1:4.5-1.1                   amd64        change and administer password and group data
     ii  perl                                  5.28.1-6+deb10u1            amd64        Larry Wall's Practical Extraction and Report Language
