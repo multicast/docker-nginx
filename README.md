@@ -34,7 +34,7 @@ Typically you want to provide bind config files and mount them:
     ii  adduser                               3.118                       all          add and remove users and groups
     ii  apt                                   1.8.2.3                     amd64        commandline package manager
     ii  apt-utils                             1.8.2.3                     amd64        package management related utility programs
-    ii  base-files                            10.3+deb10u9                amd64        Debian base system miscellaneous files
+    ii  base-files                            10.3+deb10u10               amd64        Debian base system miscellaneous files
     ii  base-passwd                           3.5.46                      amd64        Debian base system master password and group files
     ii  bash                                  5.0-4                       amd64        GNU Bourne Again SHell
     ii  bsdutils                              1:2.33.1-0.1                amd64        basic utilities from 4.4BSD-Lite
@@ -97,13 +97,13 @@ Typically you want to provide bind config files and mount them:
     ii  libfontconfig1:amd64                  2.13.1-2                    amd64        generic font configuration library - runtime
     ii  libfreetype6:amd64                    2.9.1-3+deb10u2             amd64        FreeType 2 font engine, shared library files
     ii  libgcc1:amd64                         1:8.3.0-6                   amd64        GCC support library
-    ii  libgcrypt20:amd64                     1.8.4-5                     amd64        LGPL Crypto library - runtime library
+    ii  libgcrypt20:amd64                     1.8.4-5+deb10u1             amd64        LGPL Crypto library - runtime library
     ii  libgd3:amd64                          2.2.5-5.2                   amd64        GD Graphics Library
     ii  libgdbm-compat4:amd64                 1.18.1-4                    amd64        GNU dbm database routines (legacy support runtime version) 
     ii  libgdbm6:amd64                        1.18.1-4                    amd64        GNU dbm database routines (runtime version) 
     ii  libgeoip1:amd64                       1.6.12-1                    amd64        non-DNS IP-to-country resolver library
     ii  libgmp10:amd64                        2:6.1.2+dfsg-4              amd64        Multiprecision arithmetic library
-    ii  libgnutls30:amd64                     3.6.7-4+deb10u6             amd64        GNU TLS library - main runtime library
+    ii  libgnutls30:amd64                     3.6.7-4+deb10u7             amd64        GNU TLS library - main runtime library
     ii  libgpg-error0:amd64                   1.35-1                      amd64        GnuPG development runtime library
     ii  libgssapi-krb5-2:amd64                1.17-3+deb10u1              amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
     ii  libhiredis0.14:amd64                  0.14.0-3                    amd64        minimalistic C client library for Redis
@@ -192,7 +192,7 @@ Typically you want to provide bind config files and mount them:
     ii  libxau6:amd64                         1:1.0.8-1+b2                amd64        X11 authorisation library
     ii  libxcb1:amd64                         1.13.1-2                    amd64        X C Binding
     ii  libxdmcp6:amd64                       1:1.1.2-3                   amd64        X11 Display Manager Control Protocol library
-    ii  libxml2:amd64                         2.9.4+dfsg1-7+deb10u1       amd64        GNOME XML library
+    ii  libxml2:amd64                         2.9.4+dfsg1-7+deb10u2       amd64        GNOME XML library
     ii  libxpm4:amd64                         1:3.5.12-1                  amd64        X11 pixmap library
     ii  libxslt1.1:amd64                      1.1.32-2.2~deb10u1          amd64        XSLT 1.0 processing library - runtime library
     ii  libxtables12:amd64                    1.8.2-4                     amd64        netfilter xtables library
