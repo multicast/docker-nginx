@@ -34,7 +34,7 @@ Typically you want to provide bind config files and mount them:
     ii  adduser                               3.118                       all          add and remove users and groups
     ii  apt                                   1.8.2.3                     amd64        commandline package manager
     ii  apt-utils                             1.8.2.3                     amd64        package management related utility programs
-    ii  base-files                            10.3+deb10u11               amd64        Debian base system miscellaneous files
+    ii  base-files                            10.3+deb10u12               amd64        Debian base system miscellaneous files
     ii  base-passwd                           3.5.46                      amd64        Debian base system master password and group files
     ii  bash                                  5.0-4                       amd64        GNU Bourne Again SHell
     ii  bsdutils                              1:2.33.1-0.1                amd64        basic utilities from 4.4BSD-Lite
@@ -77,9 +77,9 @@ Typically you want to provide bind config files and mount them:
     ii  libblkid1:amd64                       2.33.1-0.1                  amd64        block device ID library
     ii  libbsd0:amd64                         0.9.1-2+deb10u1             amd64        utility functions from BSD systems - shared library
     ii  libbz2-1.0:amd64                      1.0.6-9.2~deb10u1           amd64        high-quality block-sorting file compressor library - runtime
-    ii  libc-bin                              2.28-10                     amd64        GNU C Library: Binaries
-    ii  libc-l10n                             2.28-10                     all          GNU C Library: localization files
-    ii  libc6:amd64                           2.28-10                     amd64        GNU C Library: Shared libraries
+    ii  libc-bin                              2.28-10+deb10u1             amd64        GNU C Library: Binaries
+    ii  libc-l10n                             2.28-10+deb10u1             all          GNU C Library: localization files
+    ii  libc6:amd64                           2.28-10+deb10u1             amd64        GNU C Library: Shared libraries
     ii  libcap-ng0:amd64                      0.7.9-2                     amd64        An alternate POSIX capabilities library
     ii  libcap2:amd64                         1:2.25-2                    amd64        POSIX 1003.1e capabilities (library)
     ii  libcap2-bin                           1:2.25-2                    amd64        POSIX 1003.1e capabilities (utilities)
@@ -102,13 +102,13 @@ Typically you want to provide bind config files and mount them:
     ii  libgdbm-compat4:amd64                 1.18.1-4                    amd64        GNU dbm database routines (legacy support runtime version) 
     ii  libgdbm6:amd64                        1.18.1-4                    amd64        GNU dbm database routines (runtime version) 
     ii  libgeoip1:amd64                       1.6.12-1                    amd64        non-DNS IP-to-country resolver library
-    ii  libgmp10:amd64                        2:6.1.2+dfsg-4              amd64        Multiprecision arithmetic library
+    ii  libgmp10:amd64                        2:6.1.2+dfsg-4+deb10u1      amd64        Multiprecision arithmetic library
     ii  libgnutls30:amd64                     3.6.7-4+deb10u7             amd64        GNU TLS library - main runtime library
     ii  libgpg-error0:amd64                   1.35-1                      amd64        GnuPG development runtime library
     ii  libgssapi-krb5-2:amd64                1.17-3+deb10u3              amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
     ii  libhiredis0.14:amd64                  0.14.0-3                    amd64        minimalistic C client library for Redis
     ii  libhogweed4:amd64                     3.4.1-1+deb10u1             amd64        low level cryptographic library (public-key cryptos)
-    ii  libicu63:amd64                        63.1-6+deb10u2              amd64        International Components for Unicode
+    ii  libicu63:amd64                        63.1-6+deb10u3              amd64        International Components for Unicode
     ii  libidn2-0:amd64                       2.0.5-1+deb10u1             amd64        Internationalized domain names (IDNA2008/TR46) library
     ii  libjbig0:amd64                        2.1-3.1+b2                  amd64        JBIGkit libraries
     ii  libjpeg62-turbo:amd64                 1:1.5.2-2+deb10u1           amd64        libjpeg-turbo JPEG runtime library
@@ -177,7 +177,7 @@ Typically you want to provide bind config files and mount them:
     ii  libsqlite3-0:amd64                    3.27.2-3+deb10u1            amd64        SQLite 3 shared library
     ii  libss2:amd64                          1.44.5-1+deb10u3            amd64        command-line interface parsing library
     ii  libssh2-1:amd64                       1.8.0-2.1                   amd64        SSH2 client-side library
-    ii  libssl1.1:amd64                       1.1.1d-0+deb10u8            amd64        Secure Sockets Layer toolkit - shared libraries
+    ii  libssl1.1:amd64                       1.1.1n-0+deb10u1            amd64        Secure Sockets Layer toolkit - shared libraries
     ii  libstdc++6:amd64                      8.3.0-6                     amd64        GNU Standard C++ Library v3
     ii  libsystemd0:amd64                     241-7~deb10u8               amd64        systemd utility library
     ii  libtasn1-6:amd64                      4.13-3                      amd64        Manage ASN.1 structures (runtime)
@@ -192,13 +192,13 @@ Typically you want to provide bind config files and mount them:
     ii  libxau6:amd64                         1:1.0.8-1+b2                amd64        X11 authorisation library
     ii  libxcb1:amd64                         1.13.1-2                    amd64        X C Binding
     ii  libxdmcp6:amd64                       1:1.1.2-3                   amd64        X11 Display Manager Control Protocol library
-    ii  libxml2:amd64                         2.9.4+dfsg1-7+deb10u2       amd64        GNOME XML library
+    ii  libxml2:amd64                         2.9.4+dfsg1-7+deb10u3       amd64        GNOME XML library
     ii  libxpm4:amd64                         1:3.5.12-1                  amd64        X11 pixmap library
     ii  libxslt1.1:amd64                      1.1.32-2.2~deb10u1          amd64        XSLT 1.0 processing library - runtime library
     ii  libxtables12:amd64                    1.8.2-4                     amd64        netfilter xtables library
     ii  libzstd1:amd64                        1.3.8+dfsg-3+deb10u2        amd64        fast lossless compression algorithm
     ii  localepurge                           0.7.3.5                     all          reclaim disk space by removing unneeded localizations
-    ii  locales                               2.28-10                     all          GNU C Library: National Language (locale) data [support]
+    ii  locales                               2.28-10+deb10u1             all          GNU C Library: National Language (locale) data [support]
     ii  login                                 1:4.5-1.1                   amd64        system login tools
     ii  lsb-base                              10.2019051400               all          Linux Standard Base init script functionality
     ii  mawk                                  1.3.3-17+b3                 amd64        a pattern scanning and text processing language
@@ -209,7 +209,7 @@ Typically you want to provide bind config files and mount them:
     ii  net-tools                             1.60+git20180626.aebd88e-1  amd64        NET-3 networking toolkit
     ii  nginx-common                          1.14.2-2+deb10u4            all          small, powerful, scalable web/proxy server - common files
     ii  nginx-extras                          1.14.2-2+deb10u4            amd64        nginx web/proxy server (extended version)
-    ii  openssl                               1.1.1d-0+deb10u8            amd64        Secure Sockets Layer toolkit - cryptographic utility
+    ii  openssl                               1.1.1n-0+deb10u1            amd64        Secure Sockets Layer toolkit - cryptographic utility
     ii  passwd                                1:4.5-1.1                   amd64        change and administer password and group data
     ii  perl                                  5.28.1-6+deb10u1            amd64        Larry Wall's Practical Extraction and Report Language
     ii  perl-base                             5.28.1-6+deb10u1            amd64        minimal Perl system
@@ -230,7 +230,7 @@ Typically you want to provide bind config files and mount them:
     ii  sysuser-helper                        1.3.3                       all          dh-sysuser implementation detail
     ii  sysvinit-utils                        2.93-8                      amd64        System-V-like utilities
     ii  tar                                   1.30+dfsg-6                 amd64        GNU version of the tar archiving utility
-    ii  tzdata                                2021a-0+deb10u3             all          time zone and daylight-saving time data
+    ii  tzdata                                2021a-0+deb10u4             all          time zone and daylight-saving time data
     ii  ucf                                   3.0038+nmu1                 all          Update Configuration File(s): preserve user changes to config files
     ii  unzip                                 6.0-23+deb10u2              amd64        De-archiver for .zip files
     ii  util-linux                            2.33.1-0.1                  amd64        miscellaneous system utilities
