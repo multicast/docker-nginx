@@ -116,8 +116,8 @@ Typically you want to provide bind config files and mount them:
     ii  libkeyutils1:amd64                    1.6-6                       amd64        Linux Key Management Utilities (library)
     ii  libkrb5-3:amd64                       1.17-3+deb10u3              amd64        MIT Kerberos runtime libraries
     ii  libkrb5support0:amd64                 1.17-3+deb10u3              amd64        MIT Kerberos runtime libraries - Support library
-    ii  libldap-2.4-2:amd64                   2.4.47+dfsg-3+deb10u6       amd64        OpenLDAP libraries
-    ii  libldap-common                        2.4.47+dfsg-3+deb10u6       all          OpenLDAP common files for libraries
+    ii  libldap-2.4-2:amd64                   2.4.47+dfsg-3+deb10u7       amd64        OpenLDAP libraries
+    ii  libldap-common                        2.4.47+dfsg-3+deb10u7       all          OpenLDAP common files for libraries
     ii  libluajit-5.1-2:amd64                 2.1.0~beta3+dfsg-5.1        amd64        Just in time compiler for Lua - library version
     ii  libluajit-5.1-common                  2.1.0~beta3+dfsg-5.1        all          Just in time compiler for Lua - common files
     ii  liblz4-1:amd64                        1.8.3-1+deb10u1             amd64        Fast LZ compression algorithm library - runtime
