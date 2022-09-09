@@ -194,7 +194,7 @@ Typically you want to provide bind config files and mount them:
     ii  libxdmcp6:amd64                       1:1.1.2-3                   amd64        X11 Display Manager Control Protocol library
     ii  libxml2:amd64                         2.9.4+dfsg1-7+deb10u4       amd64        GNOME XML library
     ii  libxpm4:amd64                         1:3.5.12-1                  amd64        X11 pixmap library
-    ii  libxslt1.1:amd64                      1.1.32-2.2~deb10u1          amd64        XSLT 1.0 processing library - runtime library
+    ii  libxslt1.1:amd64                      1.1.32-2.2~deb10u2          amd64        XSLT 1.0 processing library - runtime library
     ii  libxtables12:amd64                    1.8.2-4                     amd64        netfilter xtables library
     ii  libzstd1:amd64                        1.3.8+dfsg-3+deb10u2        amd64        fast lossless compression algorithm
     ii  localepurge                           0.7.3.5                     all          reclaim disk space by removing unneeded localizations
