@@ -34,7 +34,7 @@ Typically you want to provide bind config files and mount them:
     ii  adduser                               3.118                       all          add and remove users and groups
     ii  apt                                   1.8.2.3                     amd64        commandline package manager
     ii  apt-utils                             1.8.2.3                     amd64        package management related utility programs
-    ii  base-files                            10.3+deb10u12               amd64        Debian base system miscellaneous files
+    ii  base-files                            10.3+deb10u13               amd64        Debian base system miscellaneous files
     ii  base-passwd                           3.5.46                      amd64        Debian base system master password and group files
     ii  bash                                  5.0-4                       amd64        GNU Bourne Again SHell
     ii  bsdutils                              1:2.33.1-0.1                amd64        basic utilities from 4.4BSD-Lite
@@ -95,7 +95,7 @@ Typically you want to provide bind config files and mount them:
     ii  libfdisk1:amd64                       2.33.1-0.1                  amd64        fdisk partitioning library
     ii  libffi6:amd64                         3.2.1-9                     amd64        Foreign Function Interface library runtime
     ii  libfontconfig1:amd64                  2.13.1-2                    amd64        generic font configuration library - runtime
-    ii  libfreetype6:amd64                    2.9.1-3+deb10u2             amd64        FreeType 2 font engine, shared library files
+    ii  libfreetype6:amd64                    2.9.1-3+deb10u3             amd64        FreeType 2 font engine, shared library files
     ii  libgcc1:amd64                         1:8.3.0-6                   amd64        GCC support library
     ii  libgcrypt20:amd64                     1.8.4-5+deb10u1             amd64        LGPL Crypto library - runtime library
     ii  libgd3:amd64                          2.2.5-5.2                   amd64        GD Graphics Library
@@ -105,17 +105,17 @@ Typically you want to provide bind config files and mount them:
     ii  libgmp10:amd64                        2:6.1.2+dfsg-4+deb10u1      amd64        Multiprecision arithmetic library
     ii  libgnutls30:amd64                     3.6.7-4+deb10u9             amd64        GNU TLS library - main runtime library
     ii  libgpg-error0:amd64                   1.35-1                      amd64        GnuPG development runtime library
-    ii  libgssapi-krb5-2:amd64                1.17-3+deb10u3              amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+    ii  libgssapi-krb5-2:amd64                1.17-3+deb10u4              amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
     ii  libhiredis0.14:amd64                  0.14.0-3                    amd64        minimalistic C client library for Redis
     ii  libhogweed4:amd64                     3.4.1-1+deb10u1             amd64        low level cryptographic library (public-key cryptos)
     ii  libicu63:amd64                        63.1-6+deb10u3              amd64        International Components for Unicode
     ii  libidn2-0:amd64                       2.0.5-1+deb10u1             amd64        Internationalized domain names (IDNA2008/TR46) library
     ii  libjbig0:amd64                        2.1-3.1+b2                  amd64        JBIGkit libraries
     ii  libjpeg62-turbo:amd64                 1:1.5.2-2+deb10u1           amd64        libjpeg-turbo JPEG runtime library
-    ii  libk5crypto3:amd64                    1.17-3+deb10u3              amd64        MIT Kerberos runtime libraries - Crypto Library
+    ii  libk5crypto3:amd64                    1.17-3+deb10u4              amd64        MIT Kerberos runtime libraries - Crypto Library
     ii  libkeyutils1:amd64                    1.6-6                       amd64        Linux Key Management Utilities (library)
-    ii  libkrb5-3:amd64                       1.17-3+deb10u3              amd64        MIT Kerberos runtime libraries
-    ii  libkrb5support0:amd64                 1.17-3+deb10u3              amd64        MIT Kerberos runtime libraries - Support library
+    ii  libkrb5-3:amd64                       1.17-3+deb10u4              amd64        MIT Kerberos runtime libraries
+    ii  libkrb5support0:amd64                 1.17-3+deb10u4              amd64        MIT Kerberos runtime libraries - Support library
     ii  libldap-2.4-2:amd64                   2.4.47+dfsg-3+deb10u7       amd64        OpenLDAP libraries
     ii  libldap-common                        2.4.47+dfsg-3+deb10u7       all          OpenLDAP common files for libraries
     ii  libluajit-5.1-2:amd64                 2.1.0~beta3+dfsg-5.1        amd64        Just in time compiler for Lua - library version
