@@ -124,8 +124,8 @@ Typically you want to provide bind config files and mount them:
     ii  liblzma5:amd64                        5.2.4-1+deb10u1             amd64        XZ-format compression library
     ii  libmnl0:amd64                         1.0.4-2                     amd64        minimalistic Netlink communication library
     ii  libmount1:amd64                       2.33.1-0.1                  amd64        device mounting library
-    ii  libncurses6:amd64                     6.1+20181013-2+deb10u2      amd64        shared libraries for terminal handling
-    ii  libncursesw6:amd64                    6.1+20181013-2+deb10u2      amd64        shared libraries for terminal handling (wide character support)
+    ii  libncurses6:amd64                     6.1+20181013-2+deb10u3      amd64        shared libraries for terminal handling
+    ii  libncursesw6:amd64                    6.1+20181013-2+deb10u3      amd64        shared libraries for terminal handling (wide character support)
     ii  libnettle6:amd64                      3.4.1-1+deb10u1             amd64        low level cryptographic library (symmetric and one-way cryptos)
     ii  libnewt0.52:amd64                     0.52.20-8                   amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
     ii  libnghttp2-14:amd64                   1.36.0-2+deb10u1            amd64        library implementing HTTP/2 protocol (shared library)
@@ -182,7 +182,7 @@ Typically you want to provide bind config files and mount them:
     ii  libsystemd0:amd64                     241-7~deb10u8               amd64        systemd utility library
     ii  libtasn1-6:amd64                      4.13-3                      amd64        Manage ASN.1 structures (runtime)
     ii  libtiff5:amd64                        4.1.0+git191117-2~deb10u4   amd64        Tag Image File Format (TIFF) library
-    ii  libtinfo6:amd64                       6.1+20181013-2+deb10u2      amd64        shared low-level terminfo library for terminal handling
+    ii  libtinfo6:amd64                       6.1+20181013-2+deb10u3      amd64        shared low-level terminfo library for terminal handling
     ii  libudev1:amd64                        241-7~deb10u8               amd64        libudev shared library
     ii  libunistring2:amd64                   0.9.10-1                    amd64        Unicode string library for C
     ii  libuuid1:amd64                        2.33.1-0.1                  amd64        Universally Unique ID library
@@ -204,8 +204,8 @@ Typically you want to provide bind config files and mount them:
     ii  mawk                                  1.3.3-17+b3                 amd64        a pattern scanning and text processing language
     ii  mime-support                          3.62                        all          MIME files 'mime.types' & 'mailcap', and support programs
     ii  mount                                 2.33.1-0.1                  amd64        tools for mounting and manipulating filesystems
-    ii  ncurses-base                          6.1+20181013-2+deb10u2      all          basic terminal type definitions
-    ii  ncurses-bin                           6.1+20181013-2+deb10u2      amd64        terminal-related programs and man pages
+    ii  ncurses-base                          6.1+20181013-2+deb10u3      all          basic terminal type definitions
+    ii  ncurses-bin                           6.1+20181013-2+deb10u3      amd64        terminal-related programs and man pages
     ii  net-tools                             1.60+git20180626.aebd88e-1  amd64        NET-3 networking toolkit
     ii  nginx-common                          1.14.2-2+deb10u4            all          small, powerful, scalable web/proxy server - common files
     ii  nginx-extras                          1.14.2-2+deb10u4            amd64        nginx web/proxy server (extended version)
