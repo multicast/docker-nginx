@@ -41,7 +41,7 @@ Typically you want to provide bind config files and mount them:
     ii  ca-certificates                       20200601~deb10u2            all          Common CA certificates
     ii  coreutils                             8.30-3                      amd64        GNU core utilities
     ii  cron                                  3.0pl1-134+deb10u1          amd64        process scheduling daemon
-    ii  curl                                  7.64.0-4+deb10u3            amd64        command line tool for transferring data with URL syntax
+    ii  curl                                  7.64.0-4+deb10u4            amd64        command line tool for transferring data with URL syntax
     ii  dash                                  0.5.10.2-5                  amd64        POSIX-compliant shell
     ii  debconf                               1.5.71+deb10u1              all          Debian configuration management system
     ii  debian-archive-keyring                2019.1+deb10u1              all          GnuPG archive keys of the Debian archive
@@ -84,8 +84,8 @@ Typically you want to provide bind config files and mount them:
     ii  libcap2:amd64                         1:2.25-2                    amd64        POSIX 1003.1e capabilities (library)
     ii  libcap2-bin                           1:2.25-2                    amd64        POSIX 1003.1e capabilities (utilities)
     ii  libcom-err2:amd64                     1.44.5-1+deb10u3            amd64        common error description library
-    ii  libcurl3-gnutls:amd64                 7.64.0-4+deb10u3            amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
-    ii  libcurl4:amd64                        7.64.0-4+deb10u3            amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
+    ii  libcurl3-gnutls:amd64                 7.64.0-4+deb10u4            amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
+    ii  libcurl4:amd64                        7.64.0-4+deb10u4            amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
     ii  libdb5.3:amd64                        5.3.28+dfsg1-0.5            amd64        Berkeley v5.3 Database Libraries [runtime]
     ii  libdebconfclient0:amd64               0.249                       amd64        Debian Configuration Management System (C-implementation library)
     ii  libelf1:amd64                         0.176-1.1                   amd64        library to read and write ELF files
@@ -181,7 +181,7 @@ Typically you want to provide bind config files and mount them:
     ii  libstdc++6:amd64                      8.3.0-6                     amd64        GNU Standard C++ Library v3
     ii  libsystemd0:amd64                     241-7~deb10u8               amd64        systemd utility library
     ii  libtasn1-6:amd64                      4.13-3+deb10u1              amd64        Manage ASN.1 structures (runtime)
-    ii  libtiff5:amd64                        4.1.0+git191117-2~deb10u5   amd64        Tag Image File Format (TIFF) library
+    ii  libtiff5:amd64                        4.1.0+git191117-2~deb10u6   amd64        Tag Image File Format (TIFF) library
     ii  libtinfo6:amd64                       6.1+20181013-2+deb10u3      amd64        shared low-level terminfo library for terminal handling
     ii  libudev1:amd64                        241-7~deb10u8               amd64        libudev shared library
     ii  libunistring2:amd64                   0.9.10-1                    amd64        Unicode string library for C
