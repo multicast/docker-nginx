@@ -179,11 +179,11 @@ Typically you want to provide bind config files and mount them:
     ii  libssh2-1:amd64                       1.8.0-2.1                   amd64        SSH2 client-side library
     ii  libssl1.1:amd64                       1.1.1n-0+deb10u4            amd64        Secure Sockets Layer toolkit - shared libraries
     ii  libstdc++6:amd64                      8.3.0-6                     amd64        GNU Standard C++ Library v3
-    ii  libsystemd0:amd64                     241-7~deb10u8               amd64        systemd utility library
+    ii  libsystemd0:amd64                     241-7~deb10u9               amd64        systemd utility library
     ii  libtasn1-6:amd64                      4.13-3+deb10u1              amd64        Manage ASN.1 structures (runtime)
     ii  libtiff5:amd64                        4.1.0+git191117-2~deb10u7   amd64        Tag Image File Format (TIFF) library
     ii  libtinfo6:amd64                       6.1+20181013-2+deb10u3      amd64        shared low-level terminfo library for terminal handling
-    ii  libudev1:amd64                        241-7~deb10u8               amd64        libudev shared library
+    ii  libudev1:amd64                        241-7~deb10u9               amd64        libudev shared library
     ii  libunistring2:amd64                   0.9.10-1                    amd64        Unicode string library for C
     ii  libuuid1:amd64                        2.33.1-0.1                  amd64        Universally Unique ID library
     ii  libwebp6:amd64                        0.6.1-2+deb10u1             amd64        Lossy compression of digital photographic images.
