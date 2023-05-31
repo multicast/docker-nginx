@@ -186,7 +186,7 @@ Typically you want to provide bind config files and mount them:
     ii  libudev1:amd64                        241-7~deb10u9               amd64        libudev shared library
     ii  libunistring2:amd64                   0.9.10-1                    amd64        Unicode string library for C
     ii  libuuid1:amd64                        2.33.1-0.1                  amd64        Universally Unique ID library
-    ii  libwebp6:amd64                        0.6.1-2+deb10u1             amd64        Lossy compression of digital photographic images.
+    ii  libwebp6:amd64                        0.6.1-2+deb10u2             amd64        Lossy compression of digital photographic images.
     ii  libx11-6:amd64                        2:1.6.7-1+deb10u2           amd64        X11 client-side library
     ii  libx11-data                           2:1.6.7-1+deb10u2           all          X11 client-side library
     ii  libxau6:amd64                         1:1.0.8-1+b2                amd64        X11 authorisation library
